@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 // utilities
-@import "./utilities/variables";
-@import "./utilities/mixins";
+@import "./utilities/variables.scss";
+@import "./utilities/mixins.scss";
 
 // base
-@import "./base/reset";
-@import "./base/fonts";
+@import "./base/reset.scss";
+@import "./base/fonts.scss";
 
 // vendors
-@import "./vendors/focus-visible";
+@import "./vendors/focus-visible.scss";

@@ -1,0 +1,14 @@
+@import "../../scss/utilities/variables.scss";
+
+.filters {
+   background: #f7f7ff;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+   &__title {
+      font-size: 36px;
+      font-weight: 500;
+      color: $black-color;
+   }
+}

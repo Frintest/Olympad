@@ -1,0 +1,62 @@
+@import "../../scss/utilities/variables.scss";
+
+.olympiad {
+   padding: 72px;
+
+   &:first-child,
+   &:nth-child(2) {
+      padding-top: 0;
+   }
+
+   &:nth-child(2n + 1) {
+      padding-left: 0;
+   }
+
+   &:nth-child(2n) {
+      padding-right: 0;
+   }
+
+   &__classes {
+      font-size: 18px;
+      color: $gray-color;
+   }
+
+   &__subjects {
+      margin-top: 28px;
+      display: flex;
+   }
+
+   &__subject {
+      font-size: 18px;
+      padding: 8px 12px;
+      border-radius: 50vh;
+      background-color: #eee;
+   }
+
+   &__subject + &__subject {
+      margin-left: 16px;
+   }
+
+   &__title {
+      margin-top: 28px;
+      font-size: 24px;
+      color: $black-color;
+      font-weight: 500;
+   }
+
+   &__stages {
+      margin-top: 56px;
+   }
+
+   &__stage {
+      font-size: 18px;
+   }
+
+   &__stage + &__stage {
+      margin-top: 34px;
+   }
+
+   &__stage-title {
+      margin-left: 20px;
+   }
+}

@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+#wrapper {
+   width: 1170px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+[class*="__container"] {
+   width: 1026px;
+   margin: 0 auto;
+}
+
+section {
+   padding: 72px 0;
+}
+
+.btn {
+   padding: 8px 44px;
+   background: $main-color;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   border-radius: 50vh;
+   border: 0;
+}
