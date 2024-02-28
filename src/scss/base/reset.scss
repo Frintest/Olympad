@@ -1,0 +1,26 @@
+* {
+   box-sizing: border-box;
+
+   &,
+   &::before,
+   &::after {
+      margin: 0;
+      padding: 0;
+   }
+}
+
+ul,
+ol {
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+img,
+svg,
+picture,
+video {
+   display: block;
+}
